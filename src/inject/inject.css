@@ -1,0 +1,23 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+.spring-latest-docs-note {
+    z-index: 9999;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 5px;
+    background-color: #5CA730;
+    color: #caeab8
+}
+
+.spring-latest-docs-note > a {
+    color: white;
+}
+
+.spring-latest-docs-note > a:hover {
+    text-decoration: underline;
+}

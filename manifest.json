@@ -1,0 +1,34 @@
+{
+  "name": "Spring Docs Read Latest Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Adds link to latest Spring docs to older versions project references",
+  "homepage_url": "http://github.com/maciejwalkowiak",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://docs.spring.io/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://docs.spring.io/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://docs.spring.io/**"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
