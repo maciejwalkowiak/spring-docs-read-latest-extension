@@ -1,0 +1,25 @@
+{
+  "name": "spring-docs-read-latest-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension that adds link to the latest reference docs in older versions of Spring reference documentation.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejwalkowiak/spring-docs-read-latest-extension.git"
+  },
+  "author": "Maciej Walkowiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciejwalkowiak/spring-docs-read-latest-extension/issues"
+  },
+  "homepage": "https://github.com/maciejwalkowiak/spring-docs-read-latest-extension#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

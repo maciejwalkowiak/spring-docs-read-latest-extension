@@ -27,6 +27,7 @@
         "https://docs.spring.io/**"
       ],
       "js": [
+        "src/inject/currentUrlProvider.js",
         "src/inject/inject.js"
       ]
     }
