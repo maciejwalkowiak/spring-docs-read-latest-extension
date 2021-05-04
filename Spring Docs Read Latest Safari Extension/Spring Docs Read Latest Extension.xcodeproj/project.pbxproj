@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D2ED2AF2641522600C585D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2ED2AE2641522600C585D0 /* AppDelegate.swift */; };
+		7D2ED2B22641522600C585D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2B02641522600C585D0 /* Main.storyboard */; };
+		7D2ED2B42641522600C585D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2ED2B32641522600C585D0 /* ViewController.swift */; };
+		7D2ED2B62641522700C585D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2B52641522700C585D0 /* Assets.xcassets */; };
+		7D2ED2BD2641522700C585D0 /* Spring Docs Read Latest Extension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7D2ED2BC2641522700C585D0 /* Spring Docs Read Latest Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7D2ED2C22641522700C585D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2ED2C12641522700C585D0 /* Cocoa.framework */; };
+		7D2ED2C52641522700C585D0 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2ED2C42641522700C585D0 /* SafariWebExtensionHandler.swift */; };
+		7D2ED2D92641522700C585D0 /* docs in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D22641522700C585D0 /* docs */; };
+		7D2ED2DA2641522700C585D0 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D32641522700C585D0 /* readme.md */; };
+		7D2ED2DB2641522700C585D0 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D42641522700C585D0 /* icons */; };
+		7D2ED2DC2641522700C585D0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D52641522700C585D0 /* manifest.json */; };
+		7D2ED2DD2641522700C585D0 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D62641522700C585D0 /* _locales */; };
+		7D2ED2DE2641522700C585D0 /* Spring Docs Read Latest Extension in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D72641522700C585D0 /* Spring Docs Read Latest Extension */; };
+		7D2ED2DF2641522700C585D0 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 7D2ED2D82641522700C585D0 /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D2ED2BE2641522700C585D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D2ED2A22641522500C585D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2ED2BB2641522700C585D0;
+			remoteInfo = "Spring Docs Read Latest Extension Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D2ED2CD2641522700C585D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D2ED2BD2641522700C585D0 /* Spring Docs Read Latest Extension Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D2ED2AA2641522600C585D0 /* Spring Docs Read Latest Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spring Docs Read Latest Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2ED2AD2641522600C585D0 /* Spring_Docs_Read_Latest_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spring_Docs_Read_Latest_Extension.entitlements; sourceTree = "<group>"; };
+		7D2ED2AE2641522600C585D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D2ED2B12641522600C585D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D2ED2B32641522600C585D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D2ED2B52641522700C585D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D2ED2B72641522700C585D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2ED2BC2641522700C585D0 /* Spring Docs Read Latest Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Spring Docs Read Latest Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2ED2C12641522700C585D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7D2ED2C42641522700C585D0 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7D2ED2C62641522700C585D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2ED2C72641522700C585D0 /* Spring_Docs_Read_Latest_Extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spring_Docs_Read_Latest_Extension_Extension.entitlements; sourceTree = "<group>"; };
+		7D2ED2D22641522700C585D0 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = docs; path = ../../docs; sourceTree = "<group>"; };
+		7D2ED2D32641522700C585D0 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = readme.md; path = ../../readme.md; sourceTree = "<group>"; };
+		7D2ED2D42641522700C585D0 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		7D2ED2D52641522700C585D0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		7D2ED2D62641522700C585D0 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../_locales; sourceTree = "<group>"; };
+		7D2ED2D72641522700C585D0 /* Spring Docs Read Latest Extension */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Spring Docs Read Latest Extension"; sourceTree = SOURCE_ROOT; };
+		7D2ED2D82641522700C585D0 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2ED2A72641522600C585D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2ED2B92641522700C585D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2ED2C22641522700C585D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D2ED2A12641522500C585D0 = {
+			isa = PBXGroup;
+			children = (
+				7D2ED2AC2641522600C585D0 /* Spring Docs Read Latest Extension */,
+				7D2ED2C32641522700C585D0 /* Spring Docs Read Latest Extension Extension */,
+				7D2ED2C02641522700C585D0 /* Frameworks */,
+				7D2ED2AB2641522600C585D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2ED2AB2641522600C585D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2ED2AA2641522600C585D0 /* Spring Docs Read Latest Extension.app */,
+				7D2ED2BC2641522700C585D0 /* Spring Docs Read Latest Extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2ED2AC2641522600C585D0 /* Spring Docs Read Latest Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D2ED2AD2641522600C585D0 /* Spring_Docs_Read_Latest_Extension.entitlements */,
+				7D2ED2AE2641522600C585D0 /* AppDelegate.swift */,
+				7D2ED2B02641522600C585D0 /* Main.storyboard */,
+				7D2ED2B32641522600C585D0 /* ViewController.swift */,
+				7D2ED2B52641522700C585D0 /* Assets.xcassets */,
+				7D2ED2B72641522700C585D0 /* Info.plist */,
+			);
+			path = "Spring Docs Read Latest Extension";
+			sourceTree = "<group>";
+		};
+		7D2ED2C02641522700C585D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D2ED2C12641522700C585D0 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D2ED2C32641522700C585D0 /* Spring Docs Read Latest Extension Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7D2ED2D12641522700C585D0 /* Resources */,
+				7D2ED2C42641522700C585D0 /* SafariWebExtensionHandler.swift */,
+				7D2ED2C62641522700C585D0 /* Info.plist */,
+				7D2ED2C72641522700C585D0 /* Spring_Docs_Read_Latest_Extension_Extension.entitlements */,
+			);
+			path = "Spring Docs Read Latest Extension Extension";
+			sourceTree = "<group>";
+		};
+		7D2ED2D12641522700C585D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D2ED2D22641522700C585D0 /* docs */,
+				7D2ED2D32641522700C585D0 /* readme.md */,
+				7D2ED2D42641522700C585D0 /* icons */,
+				7D2ED2D52641522700C585D0 /* manifest.json */,
+				7D2ED2D62641522700C585D0 /* _locales */,
+				7D2ED2D72641522700C585D0 /* Spring Docs Read Latest Extension */,
+				7D2ED2D82641522700C585D0 /* src */,
+			);
+			name = Resources;
+			path = "Spring Docs Read Latest Extension Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2ED2A92641522600C585D0 /* Spring Docs Read Latest Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2ED2CE2641522700C585D0 /* Build configuration list for PBXNativeTarget "Spring Docs Read Latest Extension" */;
+			buildPhases = (
+				7D2ED2A62641522600C585D0 /* Sources */,
+				7D2ED2A72641522600C585D0 /* Frameworks */,
+				7D2ED2A82641522600C585D0 /* Resources */,
+				7D2ED2CD2641522700C585D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D2ED2BF2641522700C585D0 /* PBXTargetDependency */,
+			);
+			name = "Spring Docs Read Latest Extension";
+			productName = "Spring Docs Read Latest Extension";
+			productReference = 7D2ED2AA2641522600C585D0 /* Spring Docs Read Latest Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D2ED2BB2641522700C585D0 /* Spring Docs Read Latest Extension Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2ED2CA2641522700C585D0 /* Build configuration list for PBXNativeTarget "Spring Docs Read Latest Extension Extension" */;
+			buildPhases = (
+				7D2ED2B82641522700C585D0 /* Sources */,
+				7D2ED2B92641522700C585D0 /* Frameworks */,
+				7D2ED2BA2641522700C585D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spring Docs Read Latest Extension Extension";
+			productName = "Spring Docs Read Latest Extension Extension";
+			productReference = 7D2ED2BC2641522700C585D0 /* Spring Docs Read Latest Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D2ED2A22641522500C585D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7D2ED2A92641522600C585D0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					7D2ED2BB2641522700C585D0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7D2ED2A52641522500C585D0 /* Build configuration list for PBXProject "Spring Docs Read Latest Extension" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D2ED2A12641522500C585D0;
+			productRefGroup = 7D2ED2AB2641522600C585D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2ED2A92641522600C585D0 /* Spring Docs Read Latest Extension */,
+				7D2ED2BB2641522700C585D0 /* Spring Docs Read Latest Extension Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D2ED2A82641522600C585D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2ED2B62641522700C585D0 /* Assets.xcassets in Resources */,
+				7D2ED2B22641522600C585D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2ED2BA2641522700C585D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2ED2DC2641522700C585D0 /* manifest.json in Resources */,
+				7D2ED2DB2641522700C585D0 /* icons in Resources */,
+				7D2ED2DA2641522700C585D0 /* readme.md in Resources */,
+				7D2ED2DD2641522700C585D0 /* _locales in Resources */,
+				7D2ED2D92641522700C585D0 /* docs in Resources */,
+				7D2ED2DF2641522700C585D0 /* src in Resources */,
+				7D2ED2DE2641522700C585D0 /* Spring Docs Read Latest Extension in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2ED2A62641522600C585D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2ED2B42641522600C585D0 /* ViewController.swift in Sources */,
+				7D2ED2AF2641522600C585D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2ED2B82641522700C585D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2ED2C52641522700C585D0 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D2ED2BF2641522700C585D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D2ED2BB2641522700C585D0 /* Spring Docs Read Latest Extension Extension */;
+			targetProxy = 7D2ED2BE2641522700C585D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D2ED2B02641522600C585D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2ED2B12641522600C585D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D2ED2C82641522700C585D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D2ED2C92641522700C585D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7D2ED2CB2641522700C585D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Spring Docs Read Latest Extension Extension/Spring_Docs_Read_Latest_Extension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Spring Docs Read Latest Extension Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Spring-Docs-Read-Latest-Extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D2ED2CC2641522700C585D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Spring Docs Read Latest Extension Extension/Spring_Docs_Read_Latest_Extension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Spring Docs Read Latest Extension Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Spring-Docs-Read-Latest-Extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7D2ED2CF2641522700C585D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Spring Docs Read Latest Extension/Spring_Docs_Read_Latest_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Spring Docs Read Latest Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Spring-Docs-Read-Latest-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D2ED2D02641522700C585D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Spring Docs Read Latest Extension/Spring_Docs_Read_Latest_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Spring Docs Read Latest Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Spring-Docs-Read-Latest-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D2ED2A52641522500C585D0 /* Build configuration list for PBXProject "Spring Docs Read Latest Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2ED2C82641522700C585D0 /* Debug */,
+				7D2ED2C92641522700C585D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2ED2CA2641522700C585D0 /* Build configuration list for PBXNativeTarget "Spring Docs Read Latest Extension Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2ED2CB2641522700C585D0 /* Debug */,
+				7D2ED2CC2641522700C585D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2ED2CE2641522700C585D0 /* Build configuration list for PBXNativeTarget "Spring Docs Read Latest Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2ED2CF2641522700C585D0 /* Debug */,
+				7D2ED2D02641522700C585D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D2ED2A22641522500C585D0 /* Project object */;
+}
