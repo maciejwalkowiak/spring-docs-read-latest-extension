@@ -1,6 +1,6 @@
 const supportedProjects = ['spring-boot', 'spring'];
 
-chrome.extension.sendMessage({}, function (response) {
+browser.runtime.sendMessage({}, function (response) {
     var readyStateCheckInterval = setInterval(function () {
         if (document.readyState === "complete") {
             clearInterval(readyStateCheckInterval);
