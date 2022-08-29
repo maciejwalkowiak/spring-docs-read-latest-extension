@@ -1,4 +1,4 @@
-const supportedProjects = ['spring-boot', 'spring'];
+const supportedProjects = ['spring-boot', 'spring-framework'];
 
 chrome.extension.sendMessage({}, function (response) {
     var readyStateCheckInterval = setInterval(function () {
