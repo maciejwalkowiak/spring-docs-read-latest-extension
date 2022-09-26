@@ -7,4 +7,6 @@ Works for:
 - Spring Framework
 - Spring Boot
 
+https://chrome.google.com/webstore/detail/spring-docs-read-latest-e/ccmccpfomgfkbcbfeahhjecddjajhipk
+
 ![Screenshot](./docs/screenshot.png) 
