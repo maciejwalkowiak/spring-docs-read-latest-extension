@@ -3,15 +3,17 @@
  **/
 
 .spring-latest-docs-note {
-    z-index: 9999;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width:100%;
     padding: 5px;
     background-color: #5CA730;
-    color: #caeab8
+    color: #caeab8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spring-latest-docs-note > div {
+    flex: 1;
+    text-align: center;
 }
 
 .spring-latest-docs-note > a {
