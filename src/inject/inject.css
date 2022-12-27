@@ -16,10 +16,10 @@
     text-align: center;
 }
 
-.spring-latest-docs-note > a {
+.spring-latest-docs-note a {
     color: white;
 }
 
-.spring-latest-docs-note > a:hover {
+.spring-latest-docs-note a:hover {
     text-decoration: underline;
 }
